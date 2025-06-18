@@ -8,20 +8,12 @@ public class Calculator {
 
         System.out.println("Simple Calculator");
         System.out.println("----------------");
-
-        // Input first number
         System.out.print("Enter first number: ");
         num1 = scanner.nextDouble();
-
-        // Input operator
         System.out.print("Enter operator (+, -, *, /): ");
         operator = scanner.next().charAt(0);
-
-        // Input second number
         System.out.print("Enter second number: ");
         num2 = scanner.nextDouble();
-
-        // Perform calculation using switch case
         switch (operator) {
             case '+':
                 result = num1 + num2;
@@ -49,4 +41,4 @@ public class Calculator {
 
         scanner.close();
     }
-} 
+}
